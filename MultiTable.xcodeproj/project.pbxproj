@@ -14,6 +14,12 @@
 		0D72DF821B93432200772C7B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D72DF811B93432200772C7B /* Images.xcassets */; };
 		0D72DF851B93432200772C7B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D72DF831B93432200772C7B /* LaunchScreen.xib */; };
 		0D72DF911B93432200772C7B /* MultiTableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D72DF901B93432200772C7B /* MultiTableTests.m */; };
+		0D72DF9C1B935C7100772C7B /* SecHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D72DF9B1B935C7100772C7B /* SecHeader.m */; };
+		0D72DFA51B93606D00772C7B /* multiCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D72DFA31B93606D00772C7B /* multiCell.m */; };
+		0D72DFA61B93606D00772C7B /* multiCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D72DFA41B93606D00772C7B /* multiCell.xib */; };
+		0D72DFA81B9363C600772C7B /* ico.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D72DFA71B9363C600772C7B /* ico.png */; };
+		0D79BCBE1B93F55200D7F439 /* SecHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D79BCBD1B93F55200D7F439 /* SecHeader.xib */; };
+		0D79BCC01B94029400D7F439 /* msg.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D79BCBF1B94029400D7F439 /* msg.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +46,14 @@
 		0D72DF8A1B93432200772C7B /* MultiTableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiTableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D72DF8F1B93432200772C7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D72DF901B93432200772C7B /* MultiTableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiTableTests.m; sourceTree = "<group>"; };
+		0D72DF9A1B935C7100772C7B /* SecHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecHeader.h; sourceTree = "<group>"; };
+		0D72DF9B1B935C7100772C7B /* SecHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecHeader.m; sourceTree = "<group>"; };
+		0D72DFA21B93606D00772C7B /* multiCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = multiCell.h; sourceTree = "<group>"; };
+		0D72DFA31B93606D00772C7B /* multiCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = multiCell.m; sourceTree = "<group>"; };
+		0D72DFA41B93606D00772C7B /* multiCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = multiCell.xib; sourceTree = "<group>"; };
+		0D72DFA71B9363C600772C7B /* ico.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ico.png; sourceTree = "<group>"; };
+		0D79BCBD1B93F55200D7F439 /* SecHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecHeader.xib; sourceTree = "<group>"; };
+		0D79BCBF1B94029400D7F439 /* msg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = msg.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +97,12 @@
 			children = (
 				0D72DF781B93432200772C7B /* AppDelegate.h */,
 				0D72DF791B93432200772C7B /* AppDelegate.m */,
+				0D72DF9A1B935C7100772C7B /* SecHeader.h */,
+				0D72DF9B1B935C7100772C7B /* SecHeader.m */,
+				0D79BCBD1B93F55200D7F439 /* SecHeader.xib */,
+				0D72DFA21B93606D00772C7B /* multiCell.h */,
+				0D72DFA31B93606D00772C7B /* multiCell.m */,
+				0D72DFA41B93606D00772C7B /* multiCell.xib */,
 				0D72DF7B1B93432200772C7B /* ViewController.h */,
 				0D72DF7C1B93432200772C7B /* ViewController.m */,
 				0D72DF7E1B93432200772C7B /* Main.storyboard */,
@@ -96,6 +116,8 @@
 		0D72DF741B93432200772C7B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0D79BCBF1B94029400D7F439 /* msg.png */,
+				0D72DFA71B9363C600772C7B /* ico.png */,
 				0D72DF751B93432200772C7B /* Info.plist */,
 				0D72DF761B93432200772C7B /* main.m */,
 			);
@@ -199,8 +221,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D79BCC01B94029400D7F439 /* msg.png in Resources */,
 				0D72DF801B93432200772C7B /* Main.storyboard in Resources */,
 				0D72DF851B93432200772C7B /* LaunchScreen.xib in Resources */,
+				0D72DFA61B93606D00772C7B /* multiCell.xib in Resources */,
+				0D72DFA81B9363C600772C7B /* ico.png in Resources */,
+				0D79BCBE1B93F55200D7F439 /* SecHeader.xib in Resources */,
 				0D72DF821B93432200772C7B /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,6 +247,8 @@
 			files = (
 				0D72DF7D1B93432200772C7B /* ViewController.m in Sources */,
 				0D72DF7A1B93432200772C7B /* AppDelegate.m in Sources */,
+				0D72DFA51B93606D00772C7B /* multiCell.m in Sources */,
+				0D72DF9C1B935C7100772C7B /* SecHeader.m in Sources */,
 				0D72DF771B93432200772C7B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +444,7 @@
 				0D72DF961B93432200772C7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0D72DF971B93432200772C7B /* Build configuration list for PBXNativeTarget "MultiTableTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +453,7 @@
 				0D72DF991B93432200772C7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
