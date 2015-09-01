@@ -49,6 +49,6 @@
         </view>
     </objects>
     <resources>
-        <image name="ico.png" width="116" height="116"/>
+        <image name="ico.png" width="100" height="100"/>
     </resources>
 </document>

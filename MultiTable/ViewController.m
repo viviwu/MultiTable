@@ -26,6 +26,7 @@
 - (void)viewDidLoad {
     
     [super viewDidLoad];
+    self.title=@"tableModel";
     _sections=[NSMutableArray array];
     _tableView.tableFooterView=[[UIView alloc]init];
     //[_tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"maincell"];

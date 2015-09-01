@@ -19,7 +19,7 @@
 
 -(void)awakeFromNib
 {
-    NSLog(@"%s", __FUNCTION__);
+//    NSLog(@"%s", __FUNCTION__);
     _imgView.clipsToBounds=YES;
     _imgView.layer.cornerRadius=5.0;
     _blackBTN.clipsToBounds=YES;

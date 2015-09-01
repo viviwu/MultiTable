@@ -20,6 +20,11 @@
 		0D72DFA81B9363C600772C7B /* ico.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D72DFA71B9363C600772C7B /* ico.png */; };
 		0D79BCBE1B93F55200D7F439 /* SecHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D79BCBD1B93F55200D7F439 /* SecHeader.xib */; };
 		0D79BCC01B94029400D7F439 /* msg.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D79BCBF1B94029400D7F439 /* msg.png */; };
+		0D79BE071B95D90900064033 /* XWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D79BE051B95D90900064033 /* XWViewController.m */; };
+		0D79BE0C1B95DE9D00064033 /* SCReusHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D79BE0A1B95DE9D00064033 /* SCReusHeader.m */; };
+		0D79BE0D1B95DE9D00064033 /* SCReusHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D79BE0B1B95DE9D00064033 /* SCReusHeader.xib */; };
+		0D79BE121B95F20700064033 /* SCRCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D79BE101B95F20700064033 /* SCRCell.m */; };
+		0D79BE131B95F20700064033 /* SCRCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D79BE111B95F20700064033 /* SCRCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +59,15 @@
 		0D72DFA71B9363C600772C7B /* ico.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ico.png; sourceTree = "<group>"; };
 		0D79BCBD1B93F55200D7F439 /* SecHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecHeader.xib; sourceTree = "<group>"; };
 		0D79BCBF1B94029400D7F439 /* msg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = msg.png; sourceTree = "<group>"; };
+		0D79BE041B95D90900064033 /* XWViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWViewController.h; sourceTree = "<group>"; };
+		0D79BE051B95D90900064033 /* XWViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWViewController.m; sourceTree = "<group>"; };
+		0D79BE091B95DE9D00064033 /* SCReusHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCReusHeader.h; sourceTree = "<group>"; };
+		0D79BE0A1B95DE9D00064033 /* SCReusHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCReusHeader.m; sourceTree = "<group>"; };
+		0D79BE0B1B95DE9D00064033 /* SCReusHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SCReusHeader.xib; sourceTree = "<group>"; };
+		0D79BE0E1B95E51900064033 /* useless.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = useless.h; sourceTree = "<group>"; };
+		0D79BE0F1B95F20700064033 /* SCRCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCRCell.h; sourceTree = "<group>"; };
+		0D79BE101B95F20700064033 /* SCRCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCRCell.m; sourceTree = "<group>"; };
+		0D79BE111B95F20700064033 /* SCRCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SCRCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,9 +119,18 @@
 				0D72DFA41B93606D00772C7B /* multiCell.xib */,
 				0D72DF7B1B93432200772C7B /* ViewController.h */,
 				0D72DF7C1B93432200772C7B /* ViewController.m */,
+				0D79BE091B95DE9D00064033 /* SCReusHeader.h */,
+				0D79BE0A1B95DE9D00064033 /* SCReusHeader.m */,
+				0D79BE0B1B95DE9D00064033 /* SCReusHeader.xib */,
+				0D79BE0F1B95F20700064033 /* SCRCell.h */,
+				0D79BE101B95F20700064033 /* SCRCell.m */,
+				0D79BE111B95F20700064033 /* SCRCell.xib */,
+				0D79BE041B95D90900064033 /* XWViewController.h */,
+				0D79BE051B95D90900064033 /* XWViewController.m */,
 				0D72DF7E1B93432200772C7B /* Main.storyboard */,
 				0D72DF811B93432200772C7B /* Images.xcassets */,
 				0D72DF831B93432200772C7B /* LaunchScreen.xib */,
+				0D79BE0E1B95E51900064033 /* useless.h */,
 				0D72DF741B93432200772C7B /* Supporting Files */,
 			);
 			path = MultiTable;
@@ -222,12 +245,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D79BCC01B94029400D7F439 /* msg.png in Resources */,
+				0D79BE131B95F20700064033 /* SCRCell.xib in Resources */,
 				0D72DF801B93432200772C7B /* Main.storyboard in Resources */,
 				0D72DF851B93432200772C7B /* LaunchScreen.xib in Resources */,
 				0D72DFA61B93606D00772C7B /* multiCell.xib in Resources */,
 				0D72DFA81B9363C600772C7B /* ico.png in Resources */,
 				0D79BCBE1B93F55200D7F439 /* SecHeader.xib in Resources */,
 				0D72DF821B93432200772C7B /* Images.xcassets in Resources */,
+				0D79BE0D1B95DE9D00064033 /* SCReusHeader.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,9 +271,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D72DF7D1B93432200772C7B /* ViewController.m in Sources */,
+				0D79BE071B95D90900064033 /* XWViewController.m in Sources */,
 				0D72DF7A1B93432200772C7B /* AppDelegate.m in Sources */,
 				0D72DFA51B93606D00772C7B /* multiCell.m in Sources */,
+				0D79BE121B95F20700064033 /* SCRCell.m in Sources */,
 				0D72DF9C1B935C7100772C7B /* SecHeader.m in Sources */,
+				0D79BE0C1B95DE9D00064033 /* SCReusHeader.m in Sources */,
 				0D72DF771B93432200772C7B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
